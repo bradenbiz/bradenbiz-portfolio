@@ -8,8 +8,7 @@ export default function Navigation() {
 
   const navItems = [
     { href: "/", label: "Virtual Plaza", current: pathname === "/" },
-    { href: "/journal", label: "Journal", current: pathname.startsWith("/journal") },
-    { href: "/things-i-will-not-do", label: "Things I Will Not Do", current: pathname === "/things-i-will-not-do" },
+    { href: "/blog", label: "Blog", current: pathname.startsWith("/blog") },
   ];
 
   return (

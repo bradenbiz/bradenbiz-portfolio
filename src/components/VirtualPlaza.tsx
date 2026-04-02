@@ -1747,11 +1747,8 @@ export default function VirtualPlaza() {
             }}
           >
             <h1 style={{ fontSize: "1.5rem", marginBottom: "1rem", color: "#ff69b4" }}>Menu</h1>
-            <Link href="/journal" style={{ color: "#00e5cc", textDecoration: "underline", marginBottom: "0.5rem" }}>
-              Journal
-            </Link>
-            <Link href="/things-i-will-not-do" style={{ color: "#b366ff", textDecoration: "underline", marginBottom: "0.5rem" }}>
-              Things I Will Not Do
+            <Link href="/blog" style={{ color: "#00e5cc", textDecoration: "underline", marginBottom: "0.5rem" }}>
+              Blog
             </Link>
             <a
               href="https://x.com/bispingbraden"
